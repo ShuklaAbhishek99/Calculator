@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 320px;
+    height: 450px;
+    font-family: 'Baloo 2', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 10px auto;
+}
+
+#screen{
+    background-color: rgb(236, 221, 221);
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+table{
+    margin: 20px auto;
+}
+
+td{
+    height: 45px;
+    width: 60px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+td:active{
+    transform: scale(0.8);
+}
+
+button{
+    font-size: 1.5rem;
+    height: 100%;
+    width: 100%;
+}
